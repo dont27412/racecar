@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+  laser_deskew 的 ROS 2 功能包清单。
+
+  功能：
+    声明包名、版本、许可证、构建系统和运行依赖，让 colcon/rosdep 知道如何处理本包。
+
+  怎么设置：
+    日常调雷达去畸变参数时不需要修改本文件；只有新增代码依赖、改包名、版本、
+    维护者或许可证时才修改。
+-->
+<package format="3">
+  <!-- 功能：包名。怎么设置：必须与 setup.py 的 package_name、resource 文件名一致。 -->
+  <name>laser_deskew</name>
+
+  <!-- 功能：包版本。怎么设置：正式发布新版本时更新；本地调参无需修改。 -->
+  <version>0.1.0</version>
+
+  <!-- 功能：包用途说明。怎么设置：只影响元数据，不影响运行。 -->
+  <description>2D rotating LiDAR motion deskew using fused odometry.</description>
+
+  <!-- 功能：维护者信息。怎么设置：正式交付时填写真实维护者。 -->
+  <maintainer email="racecar@example.com">racecar</maintainer>
+
+  <!-- 功能：软件许可证。怎么设置：必须与实际授权方式和 setup.py 一致。 -->
+  <license>Apache-2.0</license>
+
+  <!-- 功能：声明本包使用 ament_python 作为构建工具。怎么设置：Python ROS 2 包保持不变。 -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!--
+    以下为运行依赖：
+      rclpy              -> ROS 2 Python 节点 API
+      sensor_msgs        -> LaserScan
+      nav_msgs           -> Odometry
+      builtin_interfaces -> Time
+    怎么设置：如果代码以后 import 新的 ROS 2 功能包，应在这里补对应 exec_depend。
+  -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+
+  <export>
+    <!-- 功能：声明构建类型。怎么设置：本包由 setup.py 构建，所以保持 ament_python。 -->
+    <build_type>ament_python</build_type>
+  </export>
+</package>

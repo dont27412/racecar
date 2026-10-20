@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/laser_deskew/laser_deskew.egg-info
+writing ../../build/laser_deskew/laser_deskew.egg-info/PKG-INFO
+writing dependency_links to ../../build/laser_deskew/laser_deskew.egg-info/dependency_links.txt
+writing entry points to ../../build/laser_deskew/laser_deskew.egg-info/entry_points.txt
+writing requirements to ../../build/laser_deskew/laser_deskew.egg-info/requires.txt
+writing top-level names to ../../build/laser_deskew/laser_deskew.egg-info/top_level.txt
+writing manifest file '../../build/laser_deskew/laser_deskew.egg-info/SOURCES.txt'
+reading manifest file '../../build/laser_deskew/laser_deskew.egg-info/SOURCES.txt'
+writing manifest file '../../build/laser_deskew/laser_deskew.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/davinci-mini/racecar/build/laser_deskew/build
+creating /home/davinci-mini/racecar/build/laser_deskew/build/lib
+creating /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew
+copying laser_deskew/__init__.py -> /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew
+copying laser_deskew/deskew_node.py -> /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew
+running install
+running install_lib
+creating /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew
+copying /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew/__init__.py -> /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew
+copying /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew/deskew_node.py -> /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew
+byte-compiling /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew/deskew_node.py to deskew_node.cpython-310.pyc
+running install_data
+creating /home/davinci-mini/racecar/install/laser_deskew/share/ament_index
+creating /home/davinci-mini/racecar/install/laser_deskew/share/ament_index/resource_index
+creating /home/davinci-mini/racecar/install/laser_deskew/share/ament_index/resource_index/packages
+copying resource/laser_deskew -> /home/davinci-mini/racecar/install/laser_deskew/share/ament_index/resource_index/packages
+copying package.xml -> /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew
+creating /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/config
+copying config/deskew.yaml -> /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/config
+creating /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/launch
+copying launch/deskew.launch.py -> /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/launch
+running install_egg_info
+Copying ../../build/laser_deskew/laser_deskew.egg-info to /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew-0.1.0-py3.10.egg-info
+running install_scripts
+Installing laser_deskew script to /home/davinci-mini/racecar/install/laser_deskew/lib/laser_deskew
+writing list of installed files to '/home/davinci-mini/racecar/build/laser_deskew/install.log'

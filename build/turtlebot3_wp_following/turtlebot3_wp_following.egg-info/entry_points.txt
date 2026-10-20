@@ -1,0 +1,5 @@
+[console_scripts]
+path_cacher = turtlebot3_wp_following.path_cacher:main
+path_tracker = turtlebot3_wp_following.path_tracker:main
+waypoint_follower = turtlebot3_wp_following.waypoint_follower:main
+

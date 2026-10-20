@@ -1,0 +1,474 @@
+frame_id: map
+source: /plan
+min_spacing: 0.2
+waypoints:
+  waypoint0:
+    pose:
+    - 0.0
+    - 0.0
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint1:
+    pose:
+    - -0.009266
+    - 0.211465
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint2:
+    pose:
+    - -0.013153
+    - 0.436431
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint3:
+    pose:
+    - 0.013625
+    - 0.659544
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint4:
+    pose:
+    - 0.044831
+    - 0.882369
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint5:
+    pose:
+    - 0.09239
+    - 1.1006
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint6:
+    pose:
+    - 0.17622
+    - 1.301285
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint7:
+    pose:
+    - 0.230533
+    - 1.51483
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint8:
+    pose:
+    - 0.300947
+    - 1.725777
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint9:
+    pose:
+    - 0.450283
+    - 1.890851
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint10:
+    pose:
+    - 0.689
+    - 2.0
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint11:
+    pose:
+    - 0.890415
+    - 2.069043
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint12:
+    pose:
+    - 1.09875
+    - 2.126135
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint13:
+    pose:
+    - 1.323242
+    - 2.141235
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint14:
+    pose:
+    - 1.546327
+    - 2.168805
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint15:
+    pose:
+    - 1.764513
+    - 2.265353
+    - 0.0
+    orientation:
+    - 0.999718
+    - 0.0
+    - 0.0
+    - -0.023763
+  waypoint16:
+    pose:
+    - 1.973414
+    - 2.250069
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint17:
+    pose:
+    - 2.187441
+    - 2.182091
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint18:
+    pose:
+    - 2.365897
+    - 2.090448
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint19:
+    pose:
+    - 2.439295
+    - 1.894095
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint20:
+    pose:
+    - 2.437823
+    - 1.669193
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint21:
+    pose:
+    - 2.48243
+    - 1.448822
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint22:
+    pose:
+    - 2.49259
+    - 1.224741
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint23:
+    pose:
+    - 2.488927
+    - 1.024228
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint24:
+    pose:
+    - 2.486073
+    - 0.799262
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint25:
+    pose:
+    - 2.479484
+    - 0.574412
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint26:
+    pose:
+    - 2.490752
+    - 0.349698
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint27:
+    pose:
+    - 2.489
+    - 0.1
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint28:
+    pose:
+    - 2.501628
+    - -0.10418
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint29:
+    pose:
+    - 2.506071
+    - -0.328884
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint30:
+    pose:
+    - 2.490496
+    - -0.553324
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint31:
+    pose:
+    - 2.470897
+    - -0.77746
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint32:
+    pose:
+    - 2.449733
+    - -1.001171
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint33:
+    pose:
+    - 2.310955
+    - -1.155883
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint34:
+    pose:
+    - 2.116012
+    - -1.264352
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint35:
+    pose:
+    - 1.900792
+    - -1.318791
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint36:
+    pose:
+    - 1.678819
+    - -1.292984
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint37:
+    pose:
+    - 1.500613
+    - -1.200899
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint38:
+    pose:
+    - 1.275987
+    - -1.21269
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint39:
+    pose:
+    - 1.053423
+    - -1.229044
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint40:
+    pose:
+    - 0.831495
+    - -1.197395
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint41:
+    pose:
+    - 0.619762
+    - -1.122342
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint42:
+    pose:
+    - 0.439
+    - -1.0
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint43:
+    pose:
+    - 0.340453
+    - -0.809984
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint44:
+    pose:
+    - 0.240293
+    - -0.608963
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint45:
+    pose:
+    - 0.089
+    - -0.45
+    - 0.0
+    orientation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  waypoint46:
+    pose:
+    - 0.111789
+    - -0.426943
+    - 0.0
+    orientation:
+    - 0.491338
+    - 0.0
+    - 0.0
+    - 0.870969

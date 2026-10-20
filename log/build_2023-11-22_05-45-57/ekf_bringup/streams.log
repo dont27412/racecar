@@ -1,0 +1,56 @@
+[2.251s] Invoking command in '/home/davinci-mini/racecar/src/ekf_bringup': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/laser_deskew:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_driver/lib:/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/build/ekf_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages:/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_bringup build --build-base /home/davinci-mini/racecar/build/ekf_bringup/build install --record /home/davinci-mini/racecar/build/ekf_bringup/install.log --single-version-externally-managed install_data
+[3.123s] running egg_info
+[3.125s] creating ../../build/ekf_bringup/ekf_bringup.egg-info
+[3.126s] writing ../../build/ekf_bringup/ekf_bringup.egg-info/PKG-INFO
+[3.126s] writing dependency_links to ../../build/ekf_bringup/ekf_bringup.egg-info/dependency_links.txt
+[3.127s] writing entry points to ../../build/ekf_bringup/ekf_bringup.egg-info/entry_points.txt
+[3.127s] writing requirements to ../../build/ekf_bringup/ekf_bringup.egg-info/requires.txt
+[3.128s] writing top-level names to ../../build/ekf_bringup/ekf_bringup.egg-info/top_level.txt
+[3.128s] writing manifest file '../../build/ekf_bringup/ekf_bringup.egg-info/SOURCES.txt'
+[3.134s] reading manifest file '../../build/ekf_bringup/ekf_bringup.egg-info/SOURCES.txt'
+[3.136s] writing manifest file '../../build/ekf_bringup/ekf_bringup.egg-info/SOURCES.txt'
+[3.137s] running build
+[3.138s] running build_py
+[3.138s] creating /home/davinci-mini/racecar/build/ekf_bringup/build
+[3.138s] creating /home/davinci-mini/racecar/build/ekf_bringup/build/lib
+[3.139s] creating /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+[3.139s] copying ekf_bringup/ekf_bringup.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+[3.140s] copying ekf_bringup/racecar_driver.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+[3.140s] copying ekf_bringup/imu_raw_raw.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+[3.140s] copying ekf_bringup/__init__.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+[3.141s] copying ekf_bringup/encoder_raw.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+[3.141s] running install
+[3.142s] running install_lib
+[3.145s] creating /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+[3.145s] copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/ekf_bringup.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+[3.146s] copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/racecar_driver.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+[3.146s] copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/imu_raw_raw.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+[3.147s] copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/__init__.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+[3.147s] copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/encoder_raw.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+[3.148s] byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/ekf_bringup.py to ekf_bringup.cpython-310.pyc
+[3.161s] byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/racecar_driver.py to racecar_driver.cpython-310.pyc
+[3.165s] byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/imu_raw_raw.py to imu_raw_raw.cpython-310.pyc
+[3.175s] byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/__init__.py to __init__.cpython-310.pyc
+[3.176s] byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/encoder_raw.py to encoder_raw.cpython-310.pyc
+[3.185s] running install_data
+[3.185s] creating /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index
+[3.185s] creating /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index/resource_index
+[3.186s] creating /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index/resource_index/packages
+[3.186s] copying resource/ekf_bringup -> /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index/resource_index/packages
+[3.186s] copying package.xml -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup
+[3.187s] creating /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+[3.187s] copying launch/all.launch.py -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+[3.187s] copying launch/robot_tf.launch.py -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+[3.188s] copying launch/ekf_bringup.launch.py -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+[3.188s] creating /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/config
+[3.188s] copying config/imu.yaml -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/config
+[3.189s] copying config/ekf.yaml -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/config
+[3.189s] running install_egg_info
+[3.195s] Copying ../../build/ekf_bringup/ekf_bringup.egg-info to /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup-0.1.0-py3.10.egg-info
+[3.197s] running install_scripts
+[3.273s] Installing ekf_bringup script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+[3.274s] Installing encoder_raw script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+[3.274s] Installing imu_raw_raw script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+[3.274s] Installing racecar_driver script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+[3.275s] writing list of installed files to '/home/davinci-mini/racecar/build/ekf_bringup/install.log'
+[3.394s] Invoked command in '/home/davinci-mini/racecar/src/ekf_bringup' returned '0': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/laser_deskew:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_driver:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_driver/lib:/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/build/ekf_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages:/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_bringup build --build-base /home/davinci-mini/racecar/build/ekf_bringup/build install --record /home/davinci-mini/racecar/build/ekf_bringup/install.log --single-version-externally-managed install_data

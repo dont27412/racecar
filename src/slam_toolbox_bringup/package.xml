@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!--
+  slam_toolbox_bringup 的 ROS 2 功能包清单。
+
+  功能：声明该 bringup 包的名称、构建系统和运行依赖。
+  怎么设置：日常 SLAM 调参只改 config/slam_toolbox_bringup.yaml；
+            只有新增依赖、改包名/版本/许可证时才需要修改本文件。
+-->
+<package format="3">
+  <!-- 功能：功能包名称。怎么设置：必须与 CMakeLists.txt 的 project() 完全一致。 -->
+  <name>slam_toolbox_bringup</name>
+
+  <!-- 功能：版本号。怎么设置：正式发布新版本时递增；本地调参不需要改。 -->
+  <version>0.1.0</version>
+
+  <!-- 功能：包用途说明，只属于元数据，不影响建图算法参数。 -->
+  <description>Bringup and parameters for slam_toolbox online asynchronous mapping.</description>
+
+  <!-- 功能：维护者信息。怎么设置：正式交付/发布时替换为真实负责人和邮箱。 -->
+  <maintainer email="maintainer@example.com">maintainer</maintainer>
+
+  <!-- 功能：软件许可证。怎么设置：应按项目真实授权方式填写。 -->
+  <license>Proprietary</license>
+
+  <!-- 功能：声明本包使用 ament_cmake 构建。怎么设置：当前 CMake 包保持不变。 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 功能：Python 中通过包名查找 share 路径。Launch 文件用到了它。 -->
+  <exec_depend>ament_index_python</exec_depend>
+
+  <!-- 功能：ROS 2 Launch 框架。Launch 文件运行所必需。 -->
+  <exec_depend>launch</exec_depend>
+
+  <!-- 功能：真正执行 SLAM 算法的功能包。没有它 bringup 无法启动建图。 -->
+  <exec_depend>slam_toolbox</exec_depend>
+
+  <!-- 功能：运行 slam_auto_switch 节点所需的 Python 依赖。 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <!-- 功能：声明本包的构建类型。怎么设置：与 CMakeLists.txt 一致，保持 ament_cmake。 -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

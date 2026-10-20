@@ -1,0 +1,59 @@
+[2.636s] Invoking command in '/home/davinci-mini/racecar/src/turtlebot3_wp_following': PYTHONPATH=/home/davinci-mini/racecar/build/turtlebot3_wp_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_wp_following build --build-base /home/davinci-mini/racecar/build/turtlebot3_wp_following/build install --record /home/davinci-mini/racecar/build/turtlebot3_wp_following/install.log --single-version-externally-managed install_data
+[3.550s] running egg_info
+[3.552s] creating ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info
+[3.553s] writing ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/PKG-INFO
+[3.554s] writing dependency_links to ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/dependency_links.txt
+[3.555s] writing entry points to ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/entry_points.txt
+[3.555s] writing requirements to ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/requires.txt
+[3.556s] writing top-level names to ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/top_level.txt
+[3.557s] writing manifest file '../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/SOURCES.txt'
+[3.563s] reading manifest file '../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/SOURCES.txt'
+[3.566s] writing manifest file '../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info/SOURCES.txt'
+[3.566s] running build
+[3.566s] running build_py
+[3.567s] creating /home/davinci-mini/racecar/build/turtlebot3_wp_following/build
+[3.567s] creating /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib
+[3.567s] creating /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following
+[3.568s] copying turtlebot3_wp_following/path_tracker.py -> /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following
+[3.568s] copying turtlebot3_wp_following/path_cacher.py -> /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following
+[3.568s] copying turtlebot3_wp_following/__init__.py -> /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following
+[3.569s] copying turtlebot3_wp_following/waypoint_follower.py -> /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following
+[3.570s] running install
+[3.571s] running install_lib
+[3.577s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following
+[3.578s] copying /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following/path_tracker.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following
+[3.579s] copying /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following/path_cacher.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following
+[3.580s] copying /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following/__init__.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following
+[3.580s] copying /home/davinci-mini/racecar/build/turtlebot3_wp_following/build/lib/turtlebot3_wp_following/waypoint_follower.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following
+[3.581s] byte-compiling /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following/path_tracker.py to path_tracker.cpython-310.pyc
+[3.586s] byte-compiling /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following/path_cacher.py to path_cacher.cpython-310.pyc
+[3.590s] byte-compiling /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following/__init__.py to __init__.cpython-310.pyc
+[3.591s] byte-compiling /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[3.596s] running install_data
+[3.599s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/ament_index
+[3.600s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/ament_index/resource_index
+[3.602s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/ament_index/resource_index/packages
+[3.603s] copying resource/turtlebot3_wp_following -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/ament_index/resource_index/packages
+[3.603s] copying package.xml -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following
+[3.604s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/config
+[3.605s] copying config/wp_following.yaml -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/config
+[3.605s] copying config/nav2_params.yaml -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/config
+[3.606s] copying config/nav2_params_tracker.yaml -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/config
+[3.607s] copying config/cached_path.yaml -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/config
+[3.608s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/launch
+[3.608s] copying launch/track_path.launch.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/launch
+[3.609s] copying launch/wp_following.launch.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/launch
+[3.611s] copying launch/wp_following_all.launch.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/launch
+[3.612s] copying launch/cache_path.launch.py -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/share/turtlebot3_wp_following/launch
+[3.613s] creating /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/turtlebot3_wp_following
+[3.613s] copying scripts/waypoint_follower -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/turtlebot3_wp_following
+[3.614s] copying scripts/path_cacher -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/turtlebot3_wp_following
+[3.615s] copying scripts/path_tracker -> /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/turtlebot3_wp_following
+[3.615s] running install_egg_info
+[3.616s] Copying ../../build/turtlebot3_wp_following/turtlebot3_wp_following.egg-info to /home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages/turtlebot3_wp_following-0.1.0-py3.10.egg-info
+[3.616s] running install_scripts
+[3.693s] Installing path_cacher script to /home/davinci-mini/racecar/install/turtlebot3_wp_following/bin
+[3.693s] Installing path_tracker script to /home/davinci-mini/racecar/install/turtlebot3_wp_following/bin
+[3.694s] Installing waypoint_follower script to /home/davinci-mini/racecar/install/turtlebot3_wp_following/bin
+[3.695s] writing list of installed files to '/home/davinci-mini/racecar/build/turtlebot3_wp_following/install.log'
+[3.827s] Invoked command in '/home/davinci-mini/racecar/src/turtlebot3_wp_following' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/turtlebot3_wp_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/turtlebot3_wp_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_wp_following build --build-base /home/davinci-mini/racecar/build/turtlebot3_wp_following/build install --record /home/davinci-mini/racecar/build/turtlebot3_wp_following/install.log --single-version-externally-managed install_data

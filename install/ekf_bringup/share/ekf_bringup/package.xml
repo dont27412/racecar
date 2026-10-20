@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ekf_bringup</name>
+  <version>0.1.0</version>
+  <description>
+    IMU and encoder preprocessing, gyro zero-bias calibration, Madgwick filter,
+    and 2D robot_localization EKF bringup for the mobile robot.
+  </description>
+
+  <!-- 请在正式发布前替换为项目实际维护者信息。 -->
+  <maintainer email="maintainer@example.com">ekf_bringup maintainer</maintainer>
+  <!-- 未获得原项目许可证信息，因此这里不擅自改成开源许可证。 -->
+  <license>Proprietary</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>imu_filter_madgwick</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>lslidar_driver</exec_depend>
+  <exec_depend>laser_deskew</exec_depend>
+  <exec_depend>slam_toolbox_bringup</exec_depend>
+  <exec_depend>python3-serial</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

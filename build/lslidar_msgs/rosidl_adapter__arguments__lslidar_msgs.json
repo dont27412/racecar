@@ -1,0 +1,6 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/davinci-mini/racecar/src/lslidar_x10/lslidar_msgs:msg/LslidarPacket.msg"
+  ]
+}

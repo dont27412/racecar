@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ekf-bringup
+Version: 0.1.0
+Summary: ROS 2 IMU/encoder preprocessing, gyro zero-bias calibration, Madgwick preprocessing and 2D robot_localization EKF bringup.
+Home-page: UNKNOWN
+Maintainer: ekf_bringup maintainer
+Maintainer-email: maintainer@example.com
+License: Proprietary
+Platform: UNKNOWN
+
+UNKNOWN
+

@@ -1,0 +1,45 @@
+[0.026s] Invoking command in '/home/davinci-mini/racecar/build/robot_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/robot_tf -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/robot_tf
+[0.229s] -- The C compiler identification is GNU 11.4.0
+[0.440s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.706s] -- Detecting C compiler ABI info - done
+[0.751s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.752s] -- Detecting C compile features
+[0.755s] -- Detecting C compile features - done
+[0.766s] -- Detecting CXX compiler ABI info
+[1.062s] -- Detecting CXX compiler ABI info - done
+[1.121s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.123s] -- Detecting CXX compile features
+[1.126s] -- Detecting CXX compile features - done
+[1.138s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.897s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.633s] -- Configuring done
+[2.649s] -- Generating done
+[2.672s] -- Build files have been written to: /home/davinci-mini/racecar/build/robot_tf
+[2.706s] Invoked command in '/home/davinci-mini/racecar/build/robot_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/robot_tf -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/robot_tf
+[2.710s] Invoking command in '/home/davinci-mini/racecar/build/robot_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/robot_tf -- -j3 -l3
+[2.795s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.622s] -- Configuring done
+[3.635s] -- Generating done
+[3.642s] -- Build files have been written to: /home/davinci-mini/racecar/build/robot_tf
+[3.705s] Invoked command in '/home/davinci-mini/racecar/build/robot_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/robot_tf -- -j3 -l3
+[3.709s] Invoking command in '/home/davinci-mini/racecar/build/robot_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/robot_tf
+[3.735s] -- Install configuration: ""
+[3.737s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/launch
+[3.738s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/launch/robot_tf.launch.py
+[3.741s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/ament_index/resource_index/package_run_dependencies/robot_tf
+[3.743s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/ament_index/resource_index/parent_prefix_path/robot_tf
+[3.744s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/environment/ament_prefix_path.sh
+[3.746s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/environment/ament_prefix_path.dsv
+[3.748s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/environment/path.sh
+[3.750s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/environment/path.dsv
+[3.751s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/local_setup.bash
+[3.753s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/local_setup.sh
+[3.755s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/local_setup.zsh
+[3.756s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/local_setup.dsv
+[3.759s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/package.dsv
+[3.761s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/ament_index/resource_index/packages/robot_tf
+[3.763s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/cmake/robot_tfConfig.cmake
+[3.765s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/cmake/robot_tfConfig-version.cmake
+[3.767s] -- Installing: /home/davinci-mini/racecar/install/robot_tf/share/robot_tf/package.xml
+[3.777s] Invoked command in '/home/davinci-mini/racecar/build/robot_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/robot_tf

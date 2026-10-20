@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/ekf_bringup/ekf_bringup.egg-info
+writing ../../build/ekf_bringup/ekf_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/ekf_bringup/ekf_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/ekf_bringup/ekf_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/ekf_bringup/ekf_bringup.egg-info/requires.txt
+writing top-level names to ../../build/ekf_bringup/ekf_bringup.egg-info/top_level.txt
+writing manifest file '../../build/ekf_bringup/ekf_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/ekf_bringup/ekf_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/ekf_bringup/ekf_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/davinci-mini/racecar/build/ekf_bringup/build
+creating /home/davinci-mini/racecar/build/ekf_bringup/build/lib
+creating /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+copying ekf_bringup/ekf_bringup.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+copying ekf_bringup/racecar_driver.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+copying ekf_bringup/imu_raw_raw.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+copying ekf_bringup/__init__.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+copying ekf_bringup/encoder_raw.py -> /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup
+running install
+running install_lib
+creating /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/ekf_bringup.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/racecar_driver.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/imu_raw_raw.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/__init__.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+copying /home/davinci-mini/racecar/build/ekf_bringup/build/lib/ekf_bringup/encoder_raw.py -> /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup
+byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/ekf_bringup.py to ekf_bringup.cpython-310.pyc
+byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/racecar_driver.py to racecar_driver.cpython-310.pyc
+byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/imu_raw_raw.py to imu_raw_raw.cpython-310.pyc
+byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup/encoder_raw.py to encoder_raw.cpython-310.pyc
+running install_data
+creating /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index
+creating /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index/resource_index
+creating /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index/resource_index/packages
+copying resource/ekf_bringup -> /home/davinci-mini/racecar/install/ekf_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup
+creating /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+copying launch/all.launch.py -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+copying launch/robot_tf.launch.py -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+copying launch/ekf_bringup.launch.py -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/launch
+creating /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/config
+copying config/imu.yaml -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/config
+copying config/ekf.yaml -> /home/davinci-mini/racecar/install/ekf_bringup/share/ekf_bringup/config
+running install_egg_info
+Copying ../../build/ekf_bringup/ekf_bringup.egg-info to /home/davinci-mini/racecar/install/ekf_bringup/lib/python3.10/site-packages/ekf_bringup-0.1.0-py3.10.egg-info
+running install_scripts
+Installing ekf_bringup script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+Installing encoder_raw script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+Installing imu_raw_raw script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+Installing racecar_driver script to /home/davinci-mini/racecar/install/ekf_bringup/lib/ekf_bringup
+writing list of installed files to '/home/davinci-mini/racecar/build/ekf_bringup/install.log'

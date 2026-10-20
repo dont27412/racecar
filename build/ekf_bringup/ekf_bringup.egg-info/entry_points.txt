@@ -1,0 +1,6 @@
+[console_scripts]
+ekf_bringup = ekf_bringup.ekf_bringup:main
+encoder_raw = ekf_bringup.encoder_raw:main
+imu_raw_raw = ekf_bringup.imu_raw_raw:main
+racecar_driver = ekf_bringup.racecar_driver:main
+

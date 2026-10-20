@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!--
+  racecar_nav 的 ROS 2 功能包清单。
+
+  功能：把 ACK 实车的一整套导航流程打包成一键启动：
+        机器人 bringup（TF + EKF + 雷达 + 去畸变 + 底盘驱动）
+        -> SLAM 建图/定位 -> Nav2 -> 路点跟随。
+
+  怎么设置：日常只改 launch 参数与 config/*.yaml；
+            只有新增依赖、改包名/版本/许可证时才需要修改本文件。
+-->
+<package format="3">
+  <name>racecar_nav</name>
+  <version>0.1.0</version>
+  <description>
+    One-key navigation for the ACKermann racecar: robot bringup + SLAM
+    (map then localization, no AMCL) + Nav2 + waypoint following.
+  </description>
+  <maintainer email="mlh090300@todo.todo">mlh090300</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- 机器人底层 bringup：TF、EKF、雷达、去畸变、底盘驱动、SLAM。 -->
+  <exec_depend>ekf_bringup</exec_depend>
+  <exec_depend>lslidar_driver</exec_depend>
+  <exec_depend>laser_deskew</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>slam_toolbox_bringup</exec_depend>
+
+  <!-- Nav2 相关。 -->
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>nav2_bt_navigator</exec_depend>
+
+  <!-- Python 节点依赖。 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

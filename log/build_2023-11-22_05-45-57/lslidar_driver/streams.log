@@ -1,0 +1,284 @@
+[0.029s] Invoking command in '/home/davinci-mini/racecar/build/lslidar_driver': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/davinci-mini/racecar/src/lslidar_x10/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/lslidar_driver
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.370s] -- The CXX compiler identification is GNU 11.4.0
+[0.393s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.620s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.621s] -- Detecting C compile features
+[0.622s] -- Detecting C compile features - done
+[0.633s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.902s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.903s] -- Detecting CXX compile features
+[0.904s] -- Detecting CXX compile features - done
+[0.914s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.464s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.819s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.987s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.007s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.041s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.502s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.517s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.842s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.932s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.131s] -- Looking for pthread.h
+[3.529s] -- Looking for pthread.h - found
+[3.530s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.755s] -- Found Threads: TRUE  
+[4.052s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.200s] -- Found lslidar_msgs: 5.1.1 (/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[4.364s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[4.418s] -- Checking for module 'eigen3'
+[4.457s] --   Found eigen3, version 3.4.0
+[4.540s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.541s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.624s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.674s] -- Checking for module 'flann'
+[4.712s] --   Found flann, version 1.9.1
+[4.817s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[4.817s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[5.005s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[5.030s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[5.584s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[5.585s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[5.601s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[5.638s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[5.705s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[5.820s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[6.136s] -- Found X11: /usr/include   
+[6.145s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[6.367s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[6.368s] -- Looking for gethostbyname
+[6.573s] -- Looking for gethostbyname - found
+[6.573s] -- Looking for connect
+[6.777s] -- Looking for connect - found
+[6.778s] -- Looking for remove
+[6.979s] -- Looking for remove - found
+[6.979s] -- Looking for shmat
+[7.180s] -- Looking for shmat - found
+[7.181s] -- Looking for IceConnectionNumber in ICE
+[7.384s] -- Looking for IceConnectionNumber in ICE - found
+[7.627s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[7.641s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[7.654s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[7.687s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[7.919s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[7.945s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[7.960s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[7.989s] -- Found utf8cpp: /usr/include/utf8cpp  
+[8.248s] -- Checking for module 'libusb-1.0'
+[8.290s] --   Found libusb-1.0, version 1.0.25
+[8.376s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[8.385s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.386s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.536s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[8.537s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.537s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.097s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.117s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.137s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.673s] -- Found Qhull version 8.0.2
+[10.209s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.731s] -- looking for PCL_COMMON
+[10.734s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[10.735s] -- looking for PCL_KDTREE
+[10.746s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[10.747s] -- looking for PCL_OCTREE
+[10.749s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[10.750s] -- looking for PCL_SEARCH
+[10.753s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[10.754s] -- looking for PCL_SAMPLE_CONSENSUS
+[10.757s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[10.757s] -- looking for PCL_FILTERS
+[10.760s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[10.761s] -- looking for PCL_2D
+[10.772s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.772s] -- looking for PCL_GEOMETRY
+[10.773s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.774s] -- looking for PCL_IO
+[10.777s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[10.778s] -- looking for PCL_FEATURES
+[10.781s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[10.782s] -- looking for PCL_ML
+[10.785s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[10.786s] -- looking for PCL_SEGMENTATION
+[10.789s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[10.790s] -- looking for PCL_VISUALIZATION
+[10.793s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[10.794s] -- looking for PCL_SURFACE
+[10.798s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[10.799s] -- looking for PCL_REGISTRATION
+[10.802s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[10.803s] -- looking for PCL_KEYPOINTS
+[10.807s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[10.808s] -- looking for PCL_TRACKING
+[10.811s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[10.811s] -- looking for PCL_RECOGNITION
+[10.815s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[10.816s] -- looking for PCL_STEREO
+[10.819s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[10.820s] -- looking for PCL_APPS
+[10.823s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[10.825s] -- looking for PCL_IN_HAND_SCANNER
+[10.827s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.827s] -- looking for PCL_MODELER
+[10.828s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.828s] -- looking for PCL_POINT_CLOUD_EDITOR
+[10.836s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.836s] -- looking for PCL_OUTOFCORE
+[10.840s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[10.840s] -- looking for PCL_PEOPLE
+[10.843s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[10.847s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[10.860s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[11.372s] -- Configuring done
+[11.575s] -- Generating done
+[11.625s] -- Build files have been written to: /home/davinci-mini/racecar/build/lslidar_driver
+[11.697s] Invoked command in '/home/davinci-mini/racecar/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/davinci-mini/racecar/src/lslidar_x10/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/lslidar_driver
+[11.702s] Invoking command in '/home/davinci-mini/racecar/build/lslidar_driver': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_driver -- -j3 -l3
+[11.783s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.257s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[12.357s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.367s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.389s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.601s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.607s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.146s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.262s] -- Found lslidar_msgs: 5.1.1 (/home/davinci-mini/racecar/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[13.334s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[13.371s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[13.404s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[13.471s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[14.479s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.498s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.499s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[15.044s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[15.063s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.083s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.593s] -- Found Qhull version 8.0.2
+[16.139s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.672s] -- looking for PCL_COMMON
+[16.673s] -- looking for PCL_KDTREE
+[16.674s] -- looking for PCL_OCTREE
+[16.676s] -- looking for PCL_SEARCH
+[16.677s] -- looking for PCL_SAMPLE_CONSENSUS
+[16.679s] -- looking for PCL_FILTERS
+[16.680s] -- looking for PCL_2D
+[16.681s] -- looking for PCL_GEOMETRY
+[16.683s] -- looking for PCL_IO
+[16.684s] -- looking for PCL_FEATURES
+[16.686s] -- looking for PCL_ML
+[16.688s] -- looking for PCL_SEGMENTATION
+[16.689s] -- looking for PCL_VISUALIZATION
+[16.691s] -- looking for PCL_SURFACE
+[16.693s] -- looking for PCL_REGISTRATION
+[16.695s] -- looking for PCL_KEYPOINTS
+[16.696s] -- looking for PCL_TRACKING
+[16.698s] -- looking for PCL_RECOGNITION
+[16.700s] -- looking for PCL_STEREO
+[16.701s] -- looking for PCL_APPS
+[16.705s] -- looking for PCL_IN_HAND_SCANNER
+[16.706s] -- looking for PCL_MODELER
+[16.707s] -- looking for PCL_POINT_CLOUD_EDITOR
+[16.708s] -- looking for PCL_OUTOFCORE
+[16.709s] -- looking for PCL_PEOPLE
+[16.715s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[17.139s] -- Configuring done
+[17.306s] -- Generating done
+[17.356s] -- Build files have been written to: /home/davinci-mini/racecar/build/lslidar_driver
+[17.480s] [ 16%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/input.cpp.o[0m
+[31.420s] [ 33%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_x10_driver.cpp.o[0m
+[115.112s] [ 50%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lsiosr.cpp.o[0m
+[126.399s] [ 66%] [32m[1mLinking CXX static library liblslidar_driver.a[0m
+[126.726s] [ 66%] Built target lslidar_driver
+[126.764s] gmake[2]: Warning: File '/opt/ros/humble/lib/libmessage_filters.so' has modification time 42340252 s in the future
+[126.783s] [ 83%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cpp.o[0m
+[156.933s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[158.615s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[158.637s] [100%] Built target lslidar_driver_node
+[158.669s] Invoked command in '/home/davinci-mini/racecar/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/davinci-mini/racecar/build/lslidar_driver -- -j3 -l3
+[158.674s] Invoking command in '/home/davinci-mini/racecar/build/lslidar_driver': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/davinci-mini/racecar/build/lslidar_driver
+[158.695s] -- Install configuration: "Release"
+[158.696s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/lib/lslidar_driver/liblslidar_driver.a
+[158.704s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[158.709s] -- Set runtime path of "/home/davinci-mini/racecar/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[158.709s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include
+[158.710s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver
+[158.710s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp
+[158.711s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp
+[158.711s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp
+[158.711s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp
+[158.712s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/input.hpp
+[158.712s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lsiosr.hpp
+[158.712s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp
+[158.713s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_log.hpp
+[158.713s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp
+[158.714s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp
+[158.714s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp
+[158.715s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/ThreadPool.h
+[158.715s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_services.hpp
+[158.715s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp
+[158.716s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config
+[158.716s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/filter_angle.yaml
+[158.717s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10p_net.yaml
+[158.717s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10_uart.yaml
+[158.718s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_ch.yaml
+[158.718s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10_net.yaml
+[158.719s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_ls.yaml
+[158.719s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10_uart.yaml
+[158.719s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10p_uart.yaml
+[158.720s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx.yaml
+[158.721s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10p_net.yaml
+[158.721s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_right.yaml
+[158.722s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/network_setup.yaml
+[158.722s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_left.yaml
+[158.723s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_x10.yaml
+[158.723s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10p_uart.yaml
+[158.723s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10_net.yaml
+[158.724s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/rviz
+[158.724s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_cx.rviz
+[158.724s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ch.rviz
+[158.725s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_x10.rviz
+[158.726s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ls.rviz
+[158.727s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch
+[158.727s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[158.727s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ch_launch.py
+[158.728s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[158.728s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lslidar_x10_launch.py
+[158.729s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_launch.py
+[158.729s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ls_launch.py
+[158.730s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[158.730s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[158.730s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[158.731s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[158.731s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[158.731s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[158.732s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[158.732s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/environment/library_path.sh
+[158.733s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/environment/library_path.dsv
+[158.733s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[158.733s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[158.734s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[158.735s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[158.736s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[158.738s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[158.739s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[158.739s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[158.740s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[158.740s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[158.741s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.dsv
+[158.741s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[158.742s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[158.742s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[158.742s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[158.743s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[158.743s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[158.744s] -- Installing: /home/davinci-mini/racecar/install/lslidar_driver/share/lslidar_driver/package.xml
+[158.745s] Invoked command in '/home/davinci-mini/racecar/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davinci-mini/racecar/install/lslidar_msgs:/home/davinci-mini/racecar/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/slam_toolbox_bringup:/home/davinci-mini/dev_ws/install/lslidar_driver:/home/davinci-mini/dev_ws/install/lslidar_msgs:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble LD_LIBRARY_PATH=/home/davinci-mini/racecar/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davinci-mini/racecar/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/davinci-mini/racecar/build/lslidar_driver

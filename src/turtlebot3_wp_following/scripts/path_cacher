@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+"""Executable wrapper installed into lib/<pkg>/ so ros2 run/launch finds it."""
+
+from turtlebot3_wp_following.path_cacher import main
+
+if __name__ == '__main__':
+    main()

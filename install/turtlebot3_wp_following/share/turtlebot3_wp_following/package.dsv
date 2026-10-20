@@ -1,0 +1,12 @@
+source;share/turtlebot3_wp_following/hook/path.ps1
+source;share/turtlebot3_wp_following/hook/path.dsv
+source;share/turtlebot3_wp_following/hook/path.sh
+source;share/turtlebot3_wp_following/hook/pythonpath.ps1
+source;share/turtlebot3_wp_following/hook/pythonpath.dsv
+source;share/turtlebot3_wp_following/hook/pythonpath.sh
+source;share/turtlebot3_wp_following/hook/pythonscriptspath.ps1
+source;share/turtlebot3_wp_following/hook/pythonscriptspath.dsv
+source;share/turtlebot3_wp_following/hook/pythonscriptspath.sh
+source;share/turtlebot3_wp_following/hook/ament_prefix_path.ps1
+source;share/turtlebot3_wp_following/hook/ament_prefix_path.dsv
+source;share/turtlebot3_wp_following/hook/ament_prefix_path.sh

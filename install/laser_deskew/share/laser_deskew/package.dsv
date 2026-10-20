@@ -1,0 +1,6 @@
+source;share/laser_deskew/hook/pythonpath.ps1
+source;share/laser_deskew/hook/pythonpath.dsv
+source;share/laser_deskew/hook/pythonpath.sh
+source;share/laser_deskew/hook/ament_prefix_path.ps1
+source;share/laser_deskew/hook/ament_prefix_path.dsv
+source;share/laser_deskew/hook/ament_prefix_path.sh

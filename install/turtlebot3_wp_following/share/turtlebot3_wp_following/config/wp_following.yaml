@@ -1,0 +1,44 @@
+# Waypoint list used by the turtlebot3_wp_following package.
+#
+# Format A (as saved by the RViz waypoint tool):
+#   waypointN:
+#     pose: [x, y, z]
+#     orientation: [w, x, y, z]   # quaternion, w FIRST
+#
+# The node sends this whole list to Nav2 at once using the
+# NavigateThroughPoses action. Nav2 plans a single global path through all the
+# waypoints and drives it without stopping in between, publishing it on /plan,
+# which is shown as the red "Path" on the RViz map.
+
+waypoints:
+  waypoint0:
+    pose: [1.4931654930114746, -0.011607527732849121, 0]
+    orientation: [0.99999948782041637, 0, 0, -0.001012106172758075]
+  waypoint1:
+    pose: [2.5210347175598145, -0.023966848850250244, 0]
+    orientation: [0.99998389560020029, 0, 0, -0.0056752568442166576]
+  waypoint2:
+    pose: [3.5456705093383789, 0.092989921569824219, 0]
+    orientation: [0.88804637303182876, 0, 0, 0.45975388997268313]
+  waypoint3:
+    pose: [3.3699517250061035, 1.032429575920105, 0]
+    orientation: [0.18567901425854652, 0, 0, 0.98261045367122701]
+  waypoint4:
+    pose: [2.5615386962890625, 1.0959450006484985, 0]
+    orientation: [0.70466040982315348, 0, 0, -0.70954471799025143]
+  waypoint5:
+    pose: [2.5358676910400391, -0.0083726048469543457, 0]
+    orientation: [0.69547627798442091, 0, 0, -0.71854905661404667]
+  waypoint6:
+    pose: [2.4803402423858643, -1.1362713575363159, 0]
+    orientation: [0.16794448989534724, 0, 0, -0.98579645379448977]
+  waypoint7:
+    pose: [1.6983611583709717, -1.2167148590087891, 0]
+    orientation: [0.48718422835109959, 0, 0, 0.8732992199961841]
+  waypoint8:
+    pose: [1.3697454929351807, -0.25065162777900696, 0]
+    orientation: [0.44474433523473195, 0, 0, 0.89565756641509842]
+  waypoint9:
+    pose: [0.10777664184570312, -0.0081872642040252686, 0]
+    orientation: [0.01249801220581568, 0, 0, -0.99992189679539634]
+

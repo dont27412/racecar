@@ -1,0 +1,35 @@
+[0.062s] Invoking command in '/home/davinci-mini/racecar/build/slam_toolbox_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/turtlebot3_wp_following:/home/davinci-mini/racecar/install/ekf_bringup:/home/davinci-mini/racecar/install/laser_deskew:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/slam_toolbox_bringup -- -j3 -l3
+[0.364s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.265s] -- Configuring done
+[1.286s] -- Generating done
+[1.293s] -- Build files have been written to: /home/davinci-mini/racecar/build/slam_toolbox_bringup
+[1.363s] Invoked command in '/home/davinci-mini/racecar/build/slam_toolbox_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/turtlebot3_wp_following:/home/davinci-mini/racecar/install/ekf_bringup:/home/davinci-mini/racecar/install/laser_deskew:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/slam_toolbox_bringup -- -j3 -l3
+[1.390s] Invoking command in '/home/davinci-mini/racecar/build/slam_toolbox_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/turtlebot3_wp_following:/home/davinci-mini/racecar/install/ekf_bringup:/home/davinci-mini/racecar/install/laser_deskew:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/slam_toolbox_bringup
+[1.410s] -- Install configuration: ""
+[1.411s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/lib/slam_toolbox_bringup/slam_auto_switch
+[1.411s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/lib/slam_toolbox_bringup/slam_toolbox_bringup/__init__.py
+[1.412s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/lib/slam_toolbox_bringup/slam_toolbox_bringup/slam_auto_switch.py
+[1.412s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/launch
+[1.412s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/launch/slam_map_then_localization.launch.py
+[1.412s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/launch/slam_toolbox_bringup.launch.py
+[1.413s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/config
+[1.413s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/config/slam_toolbox_bringup.yaml
+[1.414s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/rviz
+[1.414s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/rviz/slam_toolbox.rviz
+[1.414s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/rviz/slam_map_local.rviz
+[1.415s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/ament_index/resource_index/package_run_dependencies/slam_toolbox_bringup
+[1.415s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/ament_index/resource_index/parent_prefix_path/slam_toolbox_bringup
+[1.415s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/ament_prefix_path.sh
+[1.416s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/ament_prefix_path.dsv
+[1.416s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/path.sh
+[1.416s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/path.dsv
+[1.417s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.bash
+[1.417s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.sh
+[1.417s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.zsh
+[1.418s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.dsv
+[1.418s] -- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/package.dsv
+[1.418s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/ament_index/resource_index/packages/slam_toolbox_bringup
+[1.419s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/cmake/slam_toolbox_bringupConfig.cmake
+[1.419s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/cmake/slam_toolbox_bringupConfig-version.cmake
+[1.419s] -- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/package.xml
+[1.422s] Invoked command in '/home/davinci-mini/racecar/build/slam_toolbox_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/racecar/install/turtlebot3_wp_following:/home/davinci-mini/racecar/install/ekf_bringup:/home/davinci-mini/racecar/install/laser_deskew:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/slam_toolbox_bringup

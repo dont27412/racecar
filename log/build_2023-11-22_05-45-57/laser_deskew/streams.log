@@ -1,0 +1,41 @@
+[2.925s] Invoking command in '/home/davinci-mini/racecar/src/laser_deskew': PYTHONPATH=/home/davinci-mini/racecar/build/laser_deskew/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_deskew build --build-base /home/davinci-mini/racecar/build/laser_deskew/build install --record /home/davinci-mini/racecar/build/laser_deskew/install.log --single-version-externally-managed install_data
+[3.866s] running egg_info
+[3.868s] creating ../../build/laser_deskew/laser_deskew.egg-info
+[3.872s] writing ../../build/laser_deskew/laser_deskew.egg-info/PKG-INFO
+[3.872s] writing dependency_links to ../../build/laser_deskew/laser_deskew.egg-info/dependency_links.txt
+[3.872s] writing entry points to ../../build/laser_deskew/laser_deskew.egg-info/entry_points.txt
+[3.873s] writing requirements to ../../build/laser_deskew/laser_deskew.egg-info/requires.txt
+[3.874s] writing top-level names to ../../build/laser_deskew/laser_deskew.egg-info/top_level.txt
+[3.875s] writing manifest file '../../build/laser_deskew/laser_deskew.egg-info/SOURCES.txt'
+[3.880s] reading manifest file '../../build/laser_deskew/laser_deskew.egg-info/SOURCES.txt'
+[3.882s] writing manifest file '../../build/laser_deskew/laser_deskew.egg-info/SOURCES.txt'
+[3.883s] running build
+[3.884s] running build_py
+[3.884s] creating /home/davinci-mini/racecar/build/laser_deskew/build
+[3.885s] creating /home/davinci-mini/racecar/build/laser_deskew/build/lib
+[3.885s] creating /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew
+[3.885s] copying laser_deskew/__init__.py -> /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew
+[3.885s] copying laser_deskew/deskew_node.py -> /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew
+[3.887s] running install
+[3.887s] running install_lib
+[3.893s] creating /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew
+[3.894s] copying /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew/__init__.py -> /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew
+[3.895s] copying /home/davinci-mini/racecar/build/laser_deskew/build/lib/laser_deskew/deskew_node.py -> /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew
+[3.896s] byte-compiling /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew/__init__.py to __init__.cpython-310.pyc
+[3.897s] byte-compiling /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew/deskew_node.py to deskew_node.cpython-310.pyc
+[3.906s] running install_data
+[3.907s] creating /home/davinci-mini/racecar/install/laser_deskew/share/ament_index
+[3.908s] creating /home/davinci-mini/racecar/install/laser_deskew/share/ament_index/resource_index
+[3.908s] creating /home/davinci-mini/racecar/install/laser_deskew/share/ament_index/resource_index/packages
+[3.908s] copying resource/laser_deskew -> /home/davinci-mini/racecar/install/laser_deskew/share/ament_index/resource_index/packages
+[3.909s] copying package.xml -> /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew
+[3.910s] creating /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/config
+[3.910s] copying config/deskew.yaml -> /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/config
+[3.911s] creating /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/launch
+[3.911s] copying launch/deskew.launch.py -> /home/davinci-mini/racecar/install/laser_deskew/share/laser_deskew/launch
+[3.912s] running install_egg_info
+[3.918s] Copying ../../build/laser_deskew/laser_deskew.egg-info to /home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages/laser_deskew-0.1.0-py3.10.egg-info
+[3.921s] running install_scripts
+[4.007s] Installing laser_deskew script to /home/davinci-mini/racecar/install/laser_deskew/lib/laser_deskew
+[4.008s] writing list of installed files to '/home/davinci-mini/racecar/build/laser_deskew/install.log'
+[4.155s] Invoked command in '/home/davinci-mini/racecar/src/laser_deskew' returned '0': PYTHONPATH=/home/davinci-mini/racecar/build/laser_deskew/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davinci-mini/racecar/install/laser_deskew/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_deskew build --build-base /home/davinci-mini/racecar/build/laser_deskew/build install --record /home/davinci-mini/racecar/build/laser_deskew/install.log --single-version-externally-managed install_data

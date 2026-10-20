@@ -1,0 +1,20 @@
+imu_filter_madgwick:
+  ros__parameters:
+    # imu_filter_madgwick 发布 TF 时使用的 fixed_frame 参数。
+    # 当前 publish_tf=false，因此该参数不会产生 TF；实际 TF 由 EKF 和 ekf_bringup/robot_tf.launch.py 中的静态 TF 负责。
+    fixed_frame: "base_footprint"
+
+    # 是否使用磁力计修正偏航角
+    use_mag: false
+
+    # 不让 IMU 滤波器发布 TF，避免产生额外动态 TF；当前 EKF 发布 odom -> akm_rear_axle_footprint。
+    publish_tf: false
+
+    # ROS 标准 ENU 坐标系。
+    world_frame: "enu"
+
+    # Madgwick 输出 orientation 的标准差参数。
+    # 当前 robot_localization 会融合 Madgwick 输出的 yaw，因此 orientation_stddev 会直接影响 yaw 测量协方差。
+    # 应根据实测姿态噪声设置该值；roll/pitch 虽由 Madgwick 输出，但 two_d_mode 下不参与平面融合。
+    # 标准差限定[0,1]，单位是rad弧度，平方得到协方差，并且会同时写入roll，pitch，yaw
+    orientation_stddev: 0.1

@@ -1,0 +1,228 @@
+ekf_filter_node:
+  ros__parameters:
+
+    # EKF 输出频率，单位 Hz。
+    # 当前设为 50 Hz，即理论输出周期 20 ms；不要求与 100 Hz IMU 同频。
+    frequency: 50.0
+
+    # 传感器超时时间，单位秒。
+    # /imu/data 目标约 100 Hz（约 10 ms/帧），/odom 为 50 Hz（约 20 ms/帧）。
+    # 设为 0.1 s，可容忍短时调度抖动，同时能较快发现输入中断。
+    sensor_timeout: 0.1
+
+    # 2D 模式。
+    # 地面小车必须设 true。
+    # 会忽略 z、roll、pitch，只估计平面 x、y、yaw 相关状态。
+    two_d_mode: true
+
+    # EKF 发布 TF 的时间偏移。
+    # 一般保持 0。
+    transform_time_offset: 0.0
+
+    # 等待 TF 的最长时间。
+    # 如果 TF 偶尔延迟，可以设 0.1~0.2。
+    # tf静止，直接设置为0.0
+    transform_timeout: 0.0
+
+    # 是否打印诊断信息。
+    # 调试阶段建议 true，正常稳定后可以 false
+    print_diagnostics: false
+
+    # 是否开启 debug。
+    # 会输出大量矩阵信息，正常不要开。
+    debug: false
+
+    # debug 文件路径。
+    # debug=false 时基本没用。
+    debug_out_file: /tmp/robot_localization_debug.txt
+
+    # 是否发布 TF。
+    # true 时 EKF 会发布 odom -> akm_rear_axle_footprint。
+    publish_tf: true
+
+    # 是否发布线加速度状态。
+    # 当前 imu0_config 不融合 ax/ay/az 线加速度，因此保持 false。
+    publish_acceleration: false
+
+    # 地图坐标系。
+    # 你现在没有 SLAM/GPS 全局定位，保留 map 即可。
+    map_frame: map
+
+    # 里程计坐标系。
+    # 注意：这里建议用 odom，不要用 odom_combined。
+    # odom_combined 是输出话题名，不建议当 frame 名。
+    odom_frame: odom
+
+    # 机器人本体/运动学参考坐标系。
+    # AKM 2D 运动学以“后轴中心在地面的投影”为参考点。
+    base_link_frame: akm_rear_axle_footprint
+
+    # 世界坐标系。
+    # 没有 GPS/SLAM 全局定位时，world_frame 应该等于 odom_frame。
+    world_frame: odom
+
+    # 第 0 个 odom 输入。
+    # 该话题由本功能包的 ekf_bringup 节点发布，消息类型 nav_msgs/msg/Odometry。
+    odom0: /odom
+
+    # /odom 使用哪些量。
+    #
+    # 顺序是：
+    # x, y, z,
+    # roll, pitch, yaw,
+    # vx, vy, vz,
+    # vroll, vpitch, vyaw,
+    # ax, ay, az
+    odom0_config: [false,  false, false,
+                   false, false, false,
+                   true,  true,  false,
+                   false, false, false,
+                   false, false, false]
+
+    # /odom 消息队列长度。
+    odom0_queue_size: 5
+
+    # 是否启用 TCP_NODELAY。
+    # 本地通信一般 false 即可。
+    odom0_nodelay: false
+
+    # 是否把 odom 的 pose 差分成速度。
+    # 你只融合 vx，不融合 pose，所以必须 false。
+    odom0_differential: false
+
+    # 是否把第一帧 odom pose 当成相对零点。
+    # 当前 odom0_config 不融合 pose，只融合 vx、vy，因此该参数基本不参与实际融合；保持 false。
+    odom0_relative: false
+
+    # 第 0 个 IMU 输入。
+    # /imu/data 来自 imu_filter_madgwick；其输入是 ekf_bringup 发布的 /imu_raw。
+    imu0: /imu/data
+
+    # /imu/data 使用哪些量。
+    #
+    # 顺序是：
+    # x, y, z,
+    # roll, pitch, yaw,
+    # vx, vy, vz,
+    # vroll, vpitch, vyaw,
+    # ax, ay, az
+    imu0_config: [false, false, false,
+                  false, false, true,
+                  false, false, false,
+                  false, false, true,
+                  false, false, false]
+
+    # IMU 队列长度。
+    imu0_queue_size: 5
+
+    # 是否启用 TCP_NODELAY。
+    imu0_nodelay: false
+
+    # 是否把 IMU 姿态差分。
+    # 当前会融合 yaw（orientation 绕 Z 轴）和 angular_velocity.z；yaw 不做差分，保持 false。
+    imu0_differential: false
+
+    # 是否把 IMU 第一帧当成零点。
+    # 设 true 后，EKF 会把启动时的 IMU yaw 作为 0，适合小车开机时不关心绝对朝向的场景。
+    imu0_relative: true
+
+    # IMU pose 异常拒绝阈值。
+    # 当前 imu0_config 打开了 yaw，因此该阈值会作用于 IMU yaw 姿态测量。
+    imu0_pose_rejection_threshold: 20.0
+
+    # IMU 角速度异常拒绝阈值。
+    # 如果 gyro_z 偶尔突变，可以用这个限制。
+    imu0_twist_rejection_threshold: 1.542
+
+    # IMU 线加速度异常拒绝阈值。
+    # 当前不融合 ax/ay/az 线加速度，因此该阈值对现有融合基本不起作用。
+    imu0_linear_acceleration_rejection_threshold: 10.0
+
+    # 是否去除重力线加速度。
+    # 当前 EKF 不融合 ax/ay/az 线加速度，所以设 false。
+    imu0_remove_gravitational_acceleration: false
+
+    # 是否使用控制输入 /cmd_vel 辅助预测。
+    # 当前已有 /odom 的 vx/vy，以及 /imu/data 的 yaw 与 gyro_z，先不用控制输入。
+    use_control: false
+
+    # 控制输入是否是 TwistStamped。
+    # use_control=false 时这个参数无实际作用。
+    stamped_control: false
+
+    # 控制命令超时时间。
+    # use_control=false 时无实际作用。
+    control_timeout: 0.2
+
+    # 控制哪些速度。
+    # 顺序是 vx, vy, vz, vroll, vpitch, vyaw。
+    # use_control=false 时无实际作用。
+    control_config: [true, false, false, false, false, true]
+
+    # 加速度限制。
+    # use_control=false 时无实际作用。
+    acceleration_limits: [1.3, 0.0, 0.0, 0.0, 0.0, 3.4]
+
+    # 减速度限制。
+    # use_control=false 时无实际作用。
+    deceleration_limits: [1.3, 0.0, 0.0, 0.0, 0.0, 4.5]
+
+    # 加速度增益。
+    # use_control=false 时无实际作用。
+    acceleration_gains: [0.8, 0.0, 0.0, 0.0, 0.0, 0.9]
+
+    # 减速度增益。
+    # use_control=false 时无实际作用。
+    deceleration_gains: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+    # 过程噪声矩阵。
+    #
+    # 顺序是：
+    # x, y, z,
+    # roll, pitch, yaw,
+    # vx, vy, vz,
+    # vroll, vpitch, vyaw,
+    # ax, ay, az
+    #
+    # 简单理解：
+    # 数值越大，EKF 越不相信自己的预测，越相信传感器更新。
+    # 数值越小，EKF 越相信自己的运动模型预测。
+    #
+    # 初期可以先用这个值，不需要频繁改。
+    process_noise_covariance: [0.05, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.05, 0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.06, 0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.03, 0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.03, 0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.06, 0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.025, 0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.025, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.04, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.01, 0.0,  0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.01, 0.0,  0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.02, 0.0,  0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.01, 0.0,  0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.01, 0.0,
+                               0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,   0.0,   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.015]
+
+    # 初始估计协方差。
+    #
+    # 简单理解：
+    # EKF 刚启动时，对自己初始状态的不确定程度。
+    #
+    # 这里保持原值即可。
+    initial_estimate_covariance: [1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9,0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9]

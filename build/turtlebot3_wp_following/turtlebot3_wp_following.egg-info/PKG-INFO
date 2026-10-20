@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: turtlebot3-wp-following
+Version: 0.1.0
+Summary: Waypoint following for TurtleBot3 via Nav2 NavigateToPose (draws the planned path on the RViz map).
+Home-page: UNKNOWN
+Maintainer: mlh090300
+Maintainer-email: mlh090300@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

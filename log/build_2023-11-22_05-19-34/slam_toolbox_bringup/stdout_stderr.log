@@ -1,0 +1,33 @@
+gmake: Warning: File 'Makefile' has modification time 5463 s in the future
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/davinci-mini/racecar/build/slam_toolbox_bringup
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+-- Install configuration: ""
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/lib/slam_toolbox_bringup/slam_auto_switch
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/lib/slam_toolbox_bringup/slam_toolbox_bringup/__init__.py
+-- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/lib/slam_toolbox_bringup/slam_toolbox_bringup/slam_auto_switch.py
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/launch
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/launch/slam_map_then_localization.launch.py
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/launch/slam_toolbox_bringup.launch.py
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/config
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/config/slam_toolbox_bringup.yaml
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/rviz
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/rviz/slam_toolbox.rviz
+-- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/rviz/slam_map_local.rviz
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/ament_index/resource_index/package_run_dependencies/slam_toolbox_bringup
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/ament_index/resource_index/parent_prefix_path/slam_toolbox_bringup
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/path.sh
+-- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/environment/path.dsv
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.bash
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.sh
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.zsh
+-- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/local_setup.dsv
+-- Installing: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/package.dsv
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/ament_index/resource_index/packages/slam_toolbox_bringup
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/cmake/slam_toolbox_bringupConfig.cmake
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/cmake/slam_toolbox_bringupConfig-version.cmake
+-- Up-to-date: /home/davinci-mini/racecar/install/slam_toolbox_bringup/share/slam_toolbox_bringup/package.xml

@@ -1,0 +1,60 @@
+[0.040s] Invoking command in '/home/davinci-mini/racecar/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/turtlebot3_navigation2
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.443s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.748s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.749s] -- Detecting C compile features
+[0.750s] -- Detecting C compile features - done
+[0.761s] -- Detecting CXX compiler ABI info
+[1.078s] -- Detecting CXX compiler ABI info - done
+[1.134s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.136s] -- Detecting CXX compile features
+[1.139s] -- Detecting CXX compile features - done
+[1.150s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.774s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.444s] -- Configuring done
+[2.459s] -- Generating done
+[2.466s] -- Build files have been written to: /home/davinci-mini/racecar/build/turtlebot3_navigation2
+[2.999s] Invoked command in '/home/davinci-mini/racecar/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake /home/davinci-mini/racecar/src/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/davinci-mini/racecar/install/turtlebot3_navigation2
+[3.003s] Invoking command in '/home/davinci-mini/racecar/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/turtlebot3_navigation2 -- -j3 -l3
+[3.078s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.907s] -- Configuring done
+[3.915s] -- Generating done
+[3.922s] -- Build files have been written to: /home/davinci-mini/racecar/build/turtlebot3_navigation2
+[3.986s] Invoked command in '/home/davinci-mini/racecar/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --build /home/davinci-mini/racecar/build/turtlebot3_navigation2 -- -j3 -l3
+[3.988s] Invoking command in '/home/davinci-mini/racecar/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/turtlebot3_navigation2
+[4.012s] -- Install configuration: ""
+[4.013s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[4.014s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[4.015s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[4.016s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[4.017s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[4.019s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[4.019s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[4.020s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble
+[4.021s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[4.022s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[4.023s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[4.024s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[4.025s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[4.026s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[4.027s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[4.028s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[4.029s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[4.031s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[4.032s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[4.033s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[4.034s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[4.035s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[4.037s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[4.038s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[4.039s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[4.040s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[4.041s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[4.042s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[4.043s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[4.044s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[4.045s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[4.046s] -- Installing: /home/davinci-mini/racecar/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[4.055s] Invoked command in '/home/davinci-mini/racecar/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci-mini/dev_ws/install/ekf_bringup:/home/davinci-mini/dev_ws/install/laser_deskew:/opt/ros/humble /usr/bin/cmake --install /home/davinci-mini/racecar/build/turtlebot3_navigation2
